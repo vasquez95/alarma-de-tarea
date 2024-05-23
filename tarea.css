@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #887676;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background: #1c7e76;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.input-container input[type="text"] {
+    flex: 2;
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #690d0d;
+    border-radius: 5px;
+}
+
+.input-container input[type="datetime-local"] {
+    flex: 2;
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #690d0d;
+    border-radius: 5px;
+}
+
+#addTaskBtn {
+    padding: 10px;
+    border: none;
+    background-color: #5cb85c;
+    color: rgb(14, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addTaskBtn:hover {
+    background-color: #4cae4c;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background: #fdfafa;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    background: #f7f4f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: #f5f4f4;
+}
+
+.clock-container {
+    margin-top: 20px;
+    background-color: #887676;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#digitalClock {
+    font-size: 48px;
+    letter-spacing: 2px;
+}
